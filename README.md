@@ -1,5 +1,5 @@
 # Big Data ETL
-![image](Images\etl.jpg)
+<img src="Images\etl.jpg"/>
 ## Background
 This is an assignment to to perform the ETL process completely in the cloud and upload a DataFrame to an RDS instance. And finally use PySpark or SQL to perform a statistical analysis of selected data.
 
@@ -23,7 +23,7 @@ The two datasets utilized in the analysis comprised of Amazon's baby review data
 
 
 #### Extract the Data
-![image](Images\extract.jpg)
+<img src="Images\extract.jpg"/>
 1. Read in each dataset using the correct `header` and `sep` parameters.
 <img width="1214" alt="Screenshot 2023-03-08 at 3 37 05 PM" src="https://user-images.githubusercontent.com/112406455/223857257-cef556ea-6045-4c9e-9b5f-5533f634a5d0.png">
 
@@ -31,7 +31,7 @@ The two datasets utilized in the analysis comprised of Amazon's baby review data
 <img width="1212" alt="Screenshot 2023-03-08 at 3 37 14 PM" src="https://user-images.githubusercontent.com/112406455/223857420-5d731410-93c6-4efc-8b52-7fd00ccabcaf.png">
 
 #### Transform the Data
-![image](Images\t.jpeg)
+<img src="Images\t.jpeg"/>
 
 A 'schema.sql' file was created for each dataset to produce four SQL database tables.
 
@@ -48,7 +48,7 @@ A 'schema.sql' file was created for each dataset to produce four SQL database ta
 <img width="1212" alt="Screenshot 2023-03-08 at 3 37 57 PM" src="https://user-images.githubusercontent.com/112406455/223858022-916aefd7-ce08-41cd-8d91-8538e07a24ec.png">
 
 #### Load the Data into an RDS Instance
-![image](Images\load.jpeg)
+<img src="Images\load.jpeg"/>
 
 Export each DataFrame into the RDS instance to create four tables for each dataset.
 <img width="1213" alt="Screenshot 2023-03-08 at 3 38 45 PM" src="https://user-images.githubusercontent.com/112406455/223858179-19e2b186-ae25-4d86-b8ed-ff84f6d79ccd.png">
